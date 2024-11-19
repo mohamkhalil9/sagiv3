@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+
+body{
+  background-color: #616161;
+}
+
+#painting {
+  height: 400px;
+  width: 400px;
+  background: #62ff00;    
+  margin-top: 30px;
+  margin: auto;
+}
+
+
+#top-row {
+  height: 290px;
+}
+
+#big-box {
+  width: 290px;
+  height: 290px;
+}
+
+#down-left-box {
+  width: 100px;
+  height: 100px;
+}
+
+#down-right-column {
+  width: 40px;
+}
+
+#down-middle-box {
+  height: 100px;
+  width: 240px;
+}
+
+
+#blackline-1 {
+  height: 290px;
+  width: 10px;
+}
+
+#blackline-2 {
+  height: 10px;
+  width: 100px;
+}
+
+#blackline-3 {
+  height: 10px;
+  width: 400px;
+}
+
+#blackline-4 {
+  height: 100px;
+  width: 10px;
+}
+
+#blackline-5 {
+  height: 10px;
+  width: 50px;
+}
+
+#blackline-6 {
+  height: 100px;
+  width: 10px;
+}
+
+
+.right {
+  float: right;
+}
+
+.medium-box {
+  width: 100px;
+  height: 140px;
+}
+
+.small-box {
+  width: 45px;
+  height: 45px;
+}
+
+
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.purble{
+  background-color: rgb(179, 0, 255);
+}
+
+  </style>
+</head>
+
+<body>
+  <div id="painting">
+    
+    <div id="top-row">
+      <div id="big-box" class="red right"></div>
+      <div id="blackline-1" class="black right"></div>
+      <div id="top-left-column" class="purble right">
+        <div class="medium-box"></div>
+        <div id="blackline-2" class="black"></div>
+        <div class="medium-box"></div>
+      </div>
+    </div>
+    
+    <div class="black right" id="blackline-3" ></div>
+    <div id="down-row">
+      <div id="down-right-column" class="right">
+        <div class="small-box blue right"></div>
+        <div id="blackline-5" class="black right"></div>
+        <div class="small-box yellow right"></div>
+      </div>
+      <div id="blackline-6" class="right black"></div>
+      
+      <div id="down-middle-box" class="right"></div>
+      <div id="blackline-4" class="black right"></div>
+      <div id="down-left-box" class="blue right"></div>
+    </div>
+  </div>
+</body>
+
+</html>
